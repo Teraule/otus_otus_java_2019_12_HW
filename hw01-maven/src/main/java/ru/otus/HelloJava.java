@@ -1,16 +1,13 @@
 package ru.otus;
 
 import com.google.common.collect.Lists;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class HelloJava {
-  private static final int MEASURE_COUNT = 1;
 
   public static void main(String... args) {
-    List<Integer> someNumbers = new ArrayList<>();
+    List<Integer> someNumbers = Lists.newArrayList();
     int min = 0;
     int max = 100;
     int length = 50;
